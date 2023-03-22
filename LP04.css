@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(11,24,46);
+}
+.header{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+.linkcolorgrey{
+    color: #888d98;
+}
+.navlogo{
+    margin-right: auto;
+}
+.navmenu{
+    margin-left: auto;
+}
+.headmenu{
+    display: flex;
+    list-style: none;
+    justify-items: auto;
+  }
+li{
+    list-style: none;
+    font-size: larger;
+    padding-left:10px
+}  
+i{
+    font-size: 25px;
+    margin-right: right;
+    
+}
+a:link {
+    text-decoration: none;
+  }
+a:hover{
+    animation:infinite;
+    animation-name: glow;
+}
+a:active {
+  text-decoration: white;
+}
+#logo{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.front{
+padding-top: 100px;
+padding-left: 100px;
+}
+h1{
+    margin-top: 0px;
+    font-size: 72px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 0%;
+    font-size: 48px;
+}
+h3{
+    margin-top: 0%;
+    font-size: 30px;
+    }
+p{
+    font-size: 19px;
+    color: #559480;
+}
+.focus{
+    color: #cec727;
+}
+.hea{
+    color: #8cdcc3;
+}
+.symbols{
+color: skyblue;
+padding-left: 10px;
+}
+.outline-button {
+    border: 2px solid #cec727;
+    background-color: transparent;
+    color: #cec727;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .social{
+    display: flex;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+.work{
+    padding-left: 100px;
+    padding-top: 130px;
+    margin-bottom: 50px;
+    padding-right: 100px;
+}
+.aboutus{
+    padding-left: 100px;
+    padding-top: 130px;
+    margin-bottom: 50px;
+    padding-right: 100px;
+    display: flex;
+}
+.abtd{
+    padding-right: 50px;
+}
+#photo{
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.wphoto{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.roww{
+    display: flex;
+    
+}
+.rowin{
+    padding-left: 30px;
+}
+.workbox{
+    padding-top: 50px;
+}
+.worklist{
+    list-style-type: disc;
+   color: #559480;
+   padding-left: 0px;
+}
+.project{
+    padding-left: 100px;
+    padding-top: 130px;
+    margin-bottom: 50px;
+    padding-right: 100px;
+}
+.rowc{
+    display: flex;
+}
+.card{
+   margin: 15px;
+    background-color: #0d1e2f;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cardtop{
+    display: flex;
+}
+.iconcard{
+    margin-left: auto;
+}
+.iconlink{
+    margin-right: auto;
+}
+.projects{
+    padding-left: 100px;
+    padding-top: 130px;
+    margin-bottom: 50px;
+    padding-right: 100px;
+}
