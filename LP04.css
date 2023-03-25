@@ -1,3 +1,23 @@
+/* if desktop */
+.mobile_device_380px {
+    display: none;
+}
+.mobile_device_480px {
+    display: none;
+}
+/* if mobile device max width 380px */
+@media only screen and (min-device-width : 0px) and (max-device-width : 380px){
+    .mobile_device_380px{display: block;} 
+    .mobile_device_480px{display: none;}      
+    .desktop {display: none;}
+} 
+
+/* if mobile device max width 480px */
+@media only screen and (min-device-width : 381px) and (max-device-width: 480px){
+   .mobile_device_480px{display: block;}
+   .mobile_device_380px{display: none;}
+   .desktop {display: none;}
+}
 body{
     background-color: rgb(11,24,46);
 }
@@ -77,6 +97,7 @@ color: skyblue;
 padding-left: 10px;
 }
 .outline-button {
+    padding-top: 3%;
     border: 2px solid #cec727;
     background-color: transparent;
     color: #cec727;
@@ -110,7 +131,10 @@ padding-left: 10px;
 }
 #photo{
     border-radius: 10px;
-    margin-top: 100px;
+
+}
+.abti{
+    padding-top: 60px;
 }
 .wphoto{
     width: 100px;
@@ -144,7 +168,7 @@ padding-left: 10px;
 }
 .card{
    margin: 15px;
-    background-color: #0d1e2f;
+   background-color: #0d1e2f;
     padding-bottom: 25px;
     padding-top: 25px;
     padding-left: 15px;
@@ -164,4 +188,91 @@ padding-left: 10px;
     padding-top: 130px;
     margin-bottom: 50px;
     padding-right: 100px;
+}
+#m380logo{
+    padding-left: 2%;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+}
+.mob_380_nav{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    display: flex;
+    margin-right: auto;
+}
+.m380_menu{
+    margin-left: auto;
+}
+.mylinks{
+    display: -ms-flexbox;
+}
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.mob_380men{
+    font-size: larger;
+}
+.mob_380row{
+    padding-top: 5%;
+    display: flex;
+}
+.mob380_wphoto{
+    margin-left: auto;
+    margin-right: 2%;
+    border-radius: 10px;
+    width: 150px;
+    padding-top: 3%;
+}
+.mob380_wi{
+    padding-left: 5%;
+}
+.mob380_sub{
+    font-size: 30px;
+}
+.mob380_card{
+    margin-top: 100px;
+}
+.icon_logo{
+    width: 40px;
 }
