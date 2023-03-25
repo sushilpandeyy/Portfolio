@@ -163,6 +163,12 @@ padding-left: 10px;
     margin-bottom: 50px;
     padding-right: 100px;
 }
+.contact{
+    padding-left: 100px;
+    padding-top: 130px;
+    margin-bottom: 50px;
+    padding-right: 100px;
+}
 .rowc{
     display: flex;
 }
