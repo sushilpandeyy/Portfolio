@@ -12,9 +12,6 @@ In the "Projects" section, you can explore a variety of web development projects
 
 Under the "Skills" section, you will find a comprehensive list of my technical skills and areas of expertise. From front-end development (HTML, CSS, JavaScript) to responsive design and UI/UX principles, this section highlights my versatility and ability to create visually appealing and user-friendly websites.
 
-## About Me
-
-In the "About Me" section, you can learn more about my background, education, and professional experience. This section provides insights into my journey as a web developer and designer, showcasing my dedication to continuous learning and growth.
 
 ## Get in Touch
 
